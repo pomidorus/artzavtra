@@ -1,0 +1,2 @@
+module ArtZavtraHelper
+end

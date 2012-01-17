@@ -1,4 +1,10 @@
 Artzavtra::Application.routes.draw do
+  get "art_zavtra/index"
+
+  get "art_zavtra/promo"
+
+  root :to => "art_zavtra#index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
