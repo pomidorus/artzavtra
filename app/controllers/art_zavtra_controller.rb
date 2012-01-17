@@ -5,4 +5,8 @@ class ArtZavtraController < ApplicationController
   def promo
   end
 
+  def catalog
+
+  end
+
 end
