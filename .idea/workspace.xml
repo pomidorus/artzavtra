@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7ddf9eaf-4209-4325-9c52-707282fc02d0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/art_zavtra.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/art_zavtra.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/art_zavtra/index.html.erb" afterPath="$PROJECT_DIR$/app/views/art_zavtra/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
     </list>
@@ -35,7 +34,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/art_zavtra/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="247" column="0" selection-start="12142" selection-end="12142" vertical-scroll-proportion="0.70155036">
+            <state line="58" column="41" selection-start="2187" selection-end="2187" vertical-scroll-proportion="0.70348835">
               <folding />
             </state>
           </provider>
@@ -45,6 +44,15 @@
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/art_zavtra.css.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state line="7" column="18" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -546,7 +554,7 @@
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="init 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="init 3" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -562,6 +570,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="init" />
     <MESSAGE value="init 2" />
+    <MESSAGE value="init 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -616,6 +625,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/art_zavtra.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="18" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
@@ -625,7 +641,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/art_zavtra/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="247" column="0" selection-start="12142" selection-end="12142" vertical-scroll-proportion="0.70155036">
+        <state line="58" column="41" selection-start="2187" selection-end="2187" vertical-scroll-proportion="0.70348835">
           <folding />
         </state>
       </provider>
