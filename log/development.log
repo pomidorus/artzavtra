@@ -2555,3 +2555,517 @@ Served asset /style.css - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:31:46 +0200
 Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-17 17:38:56 +0200
+  Processing by ArtZavtraController#index as HTML
+Rendered art_zavtra/index.html.erb within layouts/application (64.3ms)
+Completed 500 Internal Server Error in 68ms
+
+ActionView::Template::Error (No route matches {:action=>"new", :controller=>"art_zavtra"}):
+    29: 
+    30:         <div class="col_33">
+    31:           <h3>Образотворче мистецтво</h3>
+    32:           <%Q button_to "New", :action => "new" %>
+    33:           <p> Конкурс картин на тему «Я.Ти.Сьогодні – Завтра. Україна»</p>
+    34:         </div>
+    35: 
+  app/views/art_zavtra/index.html.erb:32:in `_app_views_art_zavtra_index_html_erb__58335297_98895360'
+
+Rendered /home/android/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-17 17:39:13 +0200
+  Processing by ArtZavtraController#index as HTML
+Rendered art_zavtra/index.html.erb within layouts/application (42.5ms)
+Completed 500 Internal Server Error in 47ms
+
+ActionView::Template::Error (undefined method `Q' for #<#<Class:0xb65367d4>:0xb66ec7cc>):
+    29: 
+    30:         <div class="col_33">
+    31:           <h3>Образотворче мистецтво</h3>
+    32:           <%Q button_to "New", :action => "catalog" %>
+    33:           <p> Конкурс картин на тему «Я.Ти.Сьогодні – Завтра. Україна»</p>
+    34:         </div>
+    35: 
+  app/views/art_zavtra/index.html.erb:32:in `_app_views_art_zavtra_index_html_erb__58335297__617096028'
+
+Rendered /home/android/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/android/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered /home/android/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-17 17:39:22 +0200
+  Processing by ArtZavtraController#index as HTML
+Rendered art_zavtra/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-01-17 17:39:22 +0200
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:39:22 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:39:22 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:39:22 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/art_zavtra.css?body=1" for 127.0.0.1 at 2012-01-17 17:39:22 +0200
+Served asset /art_zavtra.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:39:22 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/art_zavtra.js?body=1" for 127.0.0.1 at 2012-01-17 17:39:22 +0200
+Served asset /art_zavtra.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-17 17:41:16 +0200
+  Processing by ArtZavtraController#index as HTML
+Rendered art_zavtra/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/art_zavtra.css?body=1" for 127.0.0.1 at 2012-01-17 17:41:17 +0200
+Served asset /art_zavtra.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-01-17 17:41:17 +0200
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:41:17 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/art_zavtra.js?body=1" for 127.0.0.1 at 2012-01-17 17:41:17 +0200
+Served asset /art_zavtra.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:41:17 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:41:17 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:41:17 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-17 17:41:41 +0200
+  Processing by ArtZavtraController#index as HTML
+Rendered art_zavtra/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/art_zavtra.css?body=1" for 127.0.0.1 at 2012-01-17 17:41:41 +0200
+Served asset /art_zavtra.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:41:41 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/art_zavtra.js?body=1" for 127.0.0.1 at 2012-01-17 17:41:41 +0200
+Served asset /art_zavtra.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:41:41 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-01-17 17:41:41 +0200
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:41:41 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:41:41 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-17 17:41:56 +0200
+  Processing by ArtZavtraController#index as HTML
+Rendered art_zavtra/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/art_zavtra.css?body=1" for 127.0.0.1 at 2012-01-17 17:41:56 +0200
+Served asset /art_zavtra.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-01-17 17:41:56 +0200
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:41:56 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:41:56 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:41:56 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/art_zavtra.js?body=1" for 127.0.0.1 at 2012-01-17 17:41:56 +0200
+Served asset /art_zavtra.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:41:56 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-17 17:42:17 +0200
+  Processing by ArtZavtraController#index as HTML
+Rendered art_zavtra/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/art_zavtra.css?body=1" for 127.0.0.1 at 2012-01-17 17:42:17 +0200
+Served asset /art_zavtra.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-01-17 17:42:17 +0200
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:42:17 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/art_zavtra.js?body=1" for 127.0.0.1 at 2012-01-17 17:42:17 +0200
+Served asset /art_zavtra.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:42:17 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:42:17 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:42:17 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-17 17:44:09 +0200
+  Processing by ArtZavtraController#index as HTML
+Rendered art_zavtra/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-01-17 17:44:09 +0200
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/art_zavtra.css?body=1" for 127.0.0.1 at 2012-01-17 17:44:09 +0200
+Served asset /art_zavtra.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:44:09 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:44:09 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/art_zavtra.js?body=1" for 127.0.0.1 at 2012-01-17 17:44:09 +0200
+Served asset /art_zavtra.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:44:09 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:44:09 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-17 17:46:43 +0200
+  Processing by ArtZavtraController#index as HTML
+Rendered art_zavtra/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/art_zavtra.css?body=1" for 127.0.0.1 at 2012-01-17 17:46:43 +0200
+Served asset /art_zavtra.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-01-17 17:46:43 +0200
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:43 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:43 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/art_zavtra.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:43 +0200
+Served asset /art_zavtra.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:43 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:46:43 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/art_zavtra/catalog" for 127.0.0.1 at 2012-01-17 17:46:44 +0200
+  Processing by ArtZavtraController#catalog as HTML
+Rendered art_zavtra/catalog.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/art_zavtra.css?body=1" for 127.0.0.1 at 2012-01-17 17:46:44 +0200
+Served asset /art_zavtra.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-01-17 17:46:44 +0200
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:46:44 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:44 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:44 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/art_zavtra.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:44 +0200
+Served asset /art_zavtra.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:44 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/art_zavtra/catalog" for 127.0.0.1 at 2012-01-17 17:48:00 +0200
+  Processing by ArtZavtraController#catalog as HTML
+Rendered art_zavtra/catalog.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:48:00 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:48:00 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/art_zavtra.js?body=1" for 127.0.0.1 at 2012-01-17 17:48:00 +0200
+Served asset /art_zavtra.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:48:00 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:48:00 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-01-17 17:48:00 +0200
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/art_zavtra.css?body=1" for 127.0.0.1 at 2012-01-17 17:48:00 +0200
+Served asset /art_zavtra.css - 304 Not Modified (0ms)
+
+
+Started GET "/art_zavtra/catalog" for 127.0.0.1 at 2012-01-17 17:48:02 +0200
+  Processing by ArtZavtraController#catalog as HTML
+Rendered art_zavtra/catalog.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/art_zavtra.css?body=1" for 127.0.0.1 at 2012-01-17 17:48:02 +0200
+Served asset /art_zavtra.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-01-17 17:48:02 +0200
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:48:02 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/art_zavtra.js?body=1" for 127.0.0.1 at 2012-01-17 17:48:02 +0200
+Served asset /art_zavtra.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:48:02 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:48:02 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:48:02 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/art_zavtra/catalog" for 127.0.0.1 at 2012-01-17 17:50:04 +0200
+  Processing by ArtZavtraController#catalog as HTML
+Rendered art_zavtra/catalog.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/art_zavtra.css?body=1" for 127.0.0.1 at 2012-01-17 17:50:04 +0200
+Served asset /art_zavtra.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:50:04 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-01-17 17:50:04 +0200
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:50:04 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/art_zavtra.js?body=1" for 127.0.0.1 at 2012-01-17 17:50:04 +0200
+Served asset /art_zavtra.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:50:04 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:50:04 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-17 17:50:11 +0200
+  Processing by ArtZavtraController#index as HTML
+Rendered art_zavtra/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/art_zavtra.css?body=1" for 127.0.0.1 at 2012-01-17 17:50:11 +0200
+Served asset /art_zavtra.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:50:11 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/art_zavtra.js?body=1" for 127.0.0.1 at 2012-01-17 17:50:11 +0200
+Served asset /art_zavtra.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-01-17 17:50:11 +0200
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:50:11 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:50:11 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:50:11 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/art_zavtra/catalog" for 127.0.0.1 at 2012-01-17 17:50:13 +0200
+  Processing by ArtZavtraController#catalog as HTML
+Rendered art_zavtra/catalog.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/art_zavtra.css?body=1" for 127.0.0.1 at 2012-01-17 17:50:13 +0200
+Served asset /art_zavtra.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-01-17 17:50:13 +0200
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:50:13 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:50:13 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/art_zavtra.js?body=1" for 127.0.0.1 at 2012-01-17 17:50:13 +0200
+Served asset /art_zavtra.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:50:13 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:50:13 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/art_zavtra/catalog" for 127.0.0.1 at 2012-01-17 17:50:17 +0200
+  Processing by ArtZavtraController#catalog as HTML
+Rendered art_zavtra/catalog.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/art_zavtra.css?body=1" for 127.0.0.1 at 2012-01-17 17:50:17 +0200
+Served asset /art_zavtra.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2012-01-17 17:50:17 +0200
+Served asset /style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:50:17 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:50:17 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:50:17 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/art_zavtra.js?body=1" for 127.0.0.1 at 2012-01-17 17:50:17 +0200
+Served asset /art_zavtra.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:50:17 +0200
+Served asset /application.js - 304 Not Modified (0ms)
